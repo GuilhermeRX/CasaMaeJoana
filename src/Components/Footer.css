@@ -1,0 +1,116 @@
+footer {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #ff8ba7;
+  opacity: 0.8;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+footer .endereco {
+  margin-top: 8px;
+}
+
+footer .telefone {
+  margin: 8px 56px;
+}
+
+.telefone div {
+  margin-top: 8px;
+}
+
+footer .telefone svg {
+  margin-right: 4px;
+}
+
+footer .contatos {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 8px;
+}
+
+.contatos div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.contatos svg {
+  color: #33272a;
+}
+
+.contatos a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #33272a;
+}
+
+footer svg {
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .contatos {
+    flex-direction: row;
+    display: flex;
+    margin: 0;
+    margin-top: -6px;
+  }
+
+  .contatos div {
+    flex-direction: row;
+    display: flex;
+    margin-top: 0;
+    margin-left: 8px;
+  }
+
+  .endereco {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .endereco div {
+    display: flex;
+    margin-left: 8px;
+  }
+
+  footer .telefone {
+    margin: 8px;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .telefone div {
+    margin: 0;
+    margin-left: 8px;
+  }
+
+  footer p {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  footer svg {
+    font-size: 16px;
+  }
+
+}
