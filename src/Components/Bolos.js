@@ -4,6 +4,9 @@ import bolo10 from '../images/bolos/bolo10.jpg';
 import bolo12 from '../images/bolos/bolo12.jpg';
 import bolo13 from '../images/bolos/bolo13.jpg';
 import bolo14 from '../images/bolos/bolo14.jpg';
+import bolo16 from '../images/bolos/bolo16.jpg';
+import bolo17 from '../images/bolos/bolo17.jpg';
+import bolo18 from '../images/bolos/bolo18.jpg';
 import bolo20 from '../images/bolos/bolo20.jpeg';
 import bolo22 from '../images/bolos/bolo22.jpeg';
 import bolo23 from '../images/bolos/bolo23.jpeg';
@@ -26,7 +29,7 @@ import './Bolos.css';
 
  class Bolos extends Component {
   render() {
-    const items = [bolo1, bolo4, bolo5, bolo6, bolo7, bolo8, bolo9, bolo10, bolo12, bolo13, bolo14, bolo20, bolo22, bolo23, bolo24]
+    const items = [bolo1, bolo4, bolo5, bolo6, bolo7, bolo8, bolo9, bolo10, bolo12, bolo13, bolo14, bolo16, bolo17, bolo18, bolo20, bolo22, bolo23, bolo24]
     const docinhos = [docinho2, docinho3, docinho4, docinho6, docinho7, docinho8, docinho9]
     return (
       <div className='container'>
@@ -49,6 +52,10 @@ import './Bolos.css';
               <p className='text-preco'>Chesscake R$ 98.</p>
               <p className='text-preco'>Banana R$ 86.</p>
               <p className='text-preco'>Castanha R$ 86.</p>
+              <p className='text-preco'>Limão R$ 86.</p>
+              <p className='text-preco'>Alemã Crocante R$ 86.</p>
+              <p className='text-preco'>Maracujá R$ 86.</p>
+
             </div>
 
             <div>
@@ -64,9 +71,6 @@ import './Bolos.css';
               <p className='text-preco'>Potes de 500ml R$ 15,00</p>
               <p className='text-preco'>Potes de 1Lt R$ 18,00</p>
             </div>
-
-
-            
           </div>
           
         </div>

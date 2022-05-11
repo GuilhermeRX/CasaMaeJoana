@@ -12,7 +12,7 @@ export default function Footer() {
               <p>Rústico, Volta Redonda-Rj</p>
             </div>
           </div>
-
+          
           <div className="telefone">
             <p>Telefone:</p>
             <div>
