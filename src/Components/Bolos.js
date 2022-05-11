@@ -11,6 +11,8 @@ import bolo20 from '../images/bolos/bolo20.jpeg';
 import bolo22 from '../images/bolos/bolo22.jpeg';
 import bolo23 from '../images/bolos/bolo23.jpeg';
 import bolo24 from '../images/bolos/bolo24.jpeg';
+import bolo26 from '../images/bolos/bolo26.jpeg';
+import bolo27 from '../images/bolos/bolo27.jpeg';
 import bolo4 from '../images/bolos/bolo4.jpg';
 import bolo5 from '../images/bolos/bolo5.jpg';
 import bolo6 from '../images/bolos/bolo6.jpg';
@@ -29,7 +31,7 @@ import './Bolos.css';
 
  class Bolos extends Component {
   render() {
-    const items = [bolo1, bolo4, bolo5, bolo6, bolo7, bolo8, bolo9, bolo10, bolo12, bolo13, bolo14, bolo16, bolo17, bolo18, bolo20, bolo22, bolo23, bolo24]
+    const items = [bolo1, bolo4, bolo5, bolo6, bolo7, bolo8, bolo9, bolo10, bolo12, bolo13, bolo14, bolo16, bolo17, bolo18, bolo20, bolo22, bolo23, bolo24, bolo26, bolo27]
     const docinhos = [docinho2, docinho3, docinho4, docinho6, docinho7, docinho8, docinho9]
     return (
       <div className='container'>
@@ -53,9 +55,11 @@ import './Bolos.css';
               <p className='text-preco'>Banana R$ 86.</p>
               <p className='text-preco'>Castanha R$ 86.</p>
               <p className='text-preco'>Limão R$ 86.</p>
-              <p className='text-preco'>Alemã Crocante R$ 86.</p>
+              <p className='text-preco'>Alemã R$ 110.</p>
               <p className='text-preco'>Maracujá R$ 86.</p>
-
+              <p className='text-preco'>Abacaxi R$ 98.</p>
+              <p className='text-preco'>Coco R$ 77.</p>
+              <p className='text-preco'>Floresta Negra R$ 119.</p>
             </div>
 
             <div>
@@ -70,6 +74,15 @@ import './Bolos.css';
               <p className='text-preco'>Potes de 300ml R$ 8,00</p>
               <p className='text-preco'>Potes de 500ml R$ 15,00</p>
               <p className='text-preco'>Potes de 1Lt R$ 18,00</p>
+            </div>
+
+            <div>
+              <h4 className='subtitle-preco'>Geladinhos Gourmets</h4>
+              <p className='text-preco'>Amendoim R$ 4,00</p>
+              <p className='text-preco'>Coco R$ 4,00</p>
+              <p className='text-preco'>Maracujá R$ 4,00</p>
+              <p className='text-preco'>Frutas Vermelhas R$ 4,00</p>
+              <p className='text-preco'>Pedido mínimo: 25 unidades</p>
             </div>
           </div>
           
