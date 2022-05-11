@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import bolo1 from '../images/bolos/bolo1.jpg';
 import bolo10 from '../images/bolos/bolo10.jpg';
 import bolo12 from '../images/bolos/bolo12.jpg';
@@ -80,7 +79,7 @@ import './Bolos.css';
             {items.map((item, index) => (
               <div key={index} className='card-product'>
                 <img src={item} alt='bolos' className='img-product'/>
-                <Link className='link-buy'>Comprar Agora</Link>
+                <a className='link-buy' href='https://wa.me/5524999362399?text=Ol%C3%A1+eu+gostaria+de+encomendar+meu+pedido+%3B%29'  target='_blank' rel="noreferrer">Comprar Agora</a>
               </div>
             ))}
           </div>
@@ -99,9 +98,6 @@ import './Bolos.css';
             ))}
           </div>
         </div>
-          
-        
-        
       </div>
     )
   }
